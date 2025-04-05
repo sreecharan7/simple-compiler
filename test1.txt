@@ -1,0 +1,17 @@
+x = 2 ;
+y = 6 ;
+tt = 1 ;
+while y > x do
+    z = 8 ;
+    t = 10 ;
+    while t > z do
+        t = t - 1 ;
+        a = 3 ;
+        b = 8 ;
+        while b > a do
+            b = b - 1 ;
+            tt = tt + 1 ;
+        endwhile ;
+    endwhile ;
+    x = x + 1 ;
+endwhile ;
