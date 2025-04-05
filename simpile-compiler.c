@@ -129,8 +129,8 @@ int whilevaiableexrator(int * a ,int *b ,int *c){
     int comp=checkcomparters(line[2]);
     if(comp==-1){printf("comparator not found (%s)",line[2]);return 1;}
     int var2=checkvariable(line[3]);
-    if(var1==-999){
-        int temp=checknumber(line[1]);
+    if(var2==-999){
+        int temp=checknumber(line[3]);
         if(temp!=-999){
             datastore[varcount]=temp;
             var2=varcount;

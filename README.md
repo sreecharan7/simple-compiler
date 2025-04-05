@@ -12,20 +12,22 @@ This is a simple compiler/interpreter for a custom scripting language that handl
 - Uses a **stack-based approach** for managing nested loops.
 - Checks loop conditions before each iteration.
 
-
 ## How to Use
 
-1. Compile the program:
+1. **Compile the program:**
 
     ```bash
-    gcc simpile-compiler.c -o compiler
+    gcc simple-compiler.c -o compiler
     ```
 
-2. Run with a source file
+2. **Run the compiler:**
 
     ```bash
-    ./compiler test1.txt
+    ./compiler
     ```
+
+3. **Paste your source code** 
+
 
 ## Example Syntax
 

@@ -1,0 +1,6 @@
+x = 2 ;
+y = 6 ;
+tt = y + x ;
+while x < 8 do
+    x = x + 1 ;
+endwhile ;
